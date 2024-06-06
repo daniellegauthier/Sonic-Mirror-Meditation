@@ -19,24 +19,6 @@ This project emphasizes accessibility, personalization, and a soothing user expe
 - Guided Meditations: Provides two guided meditations to help users explore different aspects of self-doubt and community.
 - Accessibility: Designed with accessibility in mind, ensuring the experience is inclusive and user-friendly.
 
-## Setup and Installation (also available on on my github.io)
-1. Clone the Repository:
-
-bash
-Copy code
-git clone <repository-url>
-cd <repository-directory>
-Include Libraries:
-Ensure you include the p5.js and p5.sound libraries in your HTML file:
-
-html
-Copy code
-<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
-
-2. Run the Program:
-Open the index.html file in your web browser to start the meditation experience.
-
 ## Usage Guide
 - Starting the Program:
 
