@@ -44,7 +44,7 @@ Press the play buttons to start the respective meditation audios.
 Interacting with the Visualization:
 
 Observe your reflection and the distortions in the mirror as you move and make sounds.
-Follow the guided meditation instructions (with the code here) [https://editor.p5js.org/danielle.gauthier6/sketches/MUjGMUcQa] to enhance your experience.
+Follow the guided meditation instructions [with the code here] (https://editor.p5js.org/danielle.gauthier6/sketches/MUjGMUcQa) to enhance your experience.
 
 - Stopping the Program:
 
