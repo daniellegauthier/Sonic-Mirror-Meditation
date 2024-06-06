@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- welcome to self study in p5.js! i'm honored to share this with you. i'm danielle gauthier and refer to my self with she/they pronouns. for audio scripts: https://mentalhealthpoetry.help/2024/04/23/meditate-with-a-sonic-mirror/
+
+sources: https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw
+http://thecodingtrain.com
+
+guidance acknowledgements! :
+abou farman - mentor
+andrew demirjian, jordan lord, reiko tahara, chloe lee - professors
+
+
+description:
+this is an immersive visualization meditation program. it captures your sound and movement on the right hand side in preview as a distorted mirror when you click the run/play button on the top left of this window. this will not be saved or recorded anywhere. only you can see the mirror. your sound and movement will manipulate your image in a way that might be triggering to photo-sensitivity. please take notice. 
+
+instructions:
+the task is to reflect and to create captions with/for/from/about the meditations throughout the sketch.js file (found by clicking the arrow next to index.html at the top of this text box) that reference the mirror to explain how it is constructed. 
+
+to stop the program from running, press the stop button next to run/play on the top left of this window.
+
+if you click run/play at the top left of this window, there should be "press play for instructions" and "press play for a guided meditation" with recordings embedded beneath each, as well as two versions of your reflection, one of them pixelated in black and white - perhaps blurring and/or flickering, the other, small and reversed underneath. all of this would appear on the right of this script box in "preview".
+
+please immerse yourself at your leisure. this is intended to be a soothing and inspiring experience of exploration, meaning there's no right way to interact with this program - in fact, i expect everyone will have a different experience given they come with different knowledge and ability. 
+
+if you are interested in exploring the code as well as the meditations, be sure to click file in the top left of this window, and then duplicate - this will prompt you to log in or create a p5.js account with your email and a password in order to save your own version of this file that you can make edits to. you can then also rename the file by clicking on the title "self study" with the pencil next to it above. (the meditations invite you to add notes for your learning.) you will know you've successfully saved the program when your username appears next to the file name with the pencil.
+
+if you would prefer to listen to the recordings without the mirror, please see the //* in the guide for the sketch.js file which can be found by clicking the arrow just to the left of index.html at the top of this script box.
+
+to begin, start the recordings and feel free to jump around at your leisure. if you do not hear sound, click on the speaker icon control and slide the dot to the right to make it louder. 
+
+you will not break this program! and if you do, it's okay because i have copies!  
+
+i acknowledge you for your time and our mutual curiosity<3
+-->
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sonic Mirror Meditation</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-6">
+        <h1>Sonic Mirror Meditation</h1>
+        
+        <div class="audio-controls">
+          <p>Press play for "self study - instructions audio"</p>
+          <button id="playButton1" class="btn btn-primary">Play Instructions</button>
+          <audio id="meditationAudio1" controls>
+            <source src="https://assets.editor.p5js.org/5f986d8a372cb80020e92180/dfeaba25-3699-499d-9bcd-c5d57b956ab3.m4a" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="audio-controls">
+          <p>Press play for "dissolving self doubt from misunderstanding - meditation audio"</p>
+          <button id="playButton2" class="btn btn-primary">Play Meditation 1</button>
+          <audio id="meditationAudio2" controls>
+            <source src="https://assets.editor.p5js.org/5f986d8a372cb80020e92180/3e1b2861-05ed-4601-8ce0-3d8308860054.m4a" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="audio-controls">
+          <p>Press play for "attracting revolution in community - meditation audio"</p>
+          <button id="playButton3" class="btn btn-primary">Play Meditation 2</button>
+          <audio id="meditationAudio3" controls>
+            <source src="https://assets.editor.p5js.org/5f986d8a372cb80020e92180/55a7c54a-0482-4677-8cf3-f4e464e3fc62.m4a" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+      </div>
+        
+      <div class="col-12 col-md-6">
+        <div id="canvasContainer"></div>
+      </div>
+    </div>
+  </div>
+  <script src="sketch.js"></script>
+</body>
+</html>
