@@ -11,7 +11,7 @@ Sonic Mirror Meditation is designed to:
 - Reflect these inputs through an environmental mirror on your screen.
 - Provide guided meditations to facilitate self-study and reflection.
 - 
-This project emphasizes accessibility, personalization, and a soothing user experience, with an intent to inspire curiosity and self-exploration. Find the script (here)[https://mentalhealthpoetry.help/2024/04/23/meditate-with-a-sonic-mirror/].
+This project emphasizes accessibility, personalization, and a soothing user experience, with an intent to inspire curiosity and self-exploration. Find the script [here](https://mentalhealthpoetry.help/2024/04/23/meditate-with-a-sonic-mirror/).
 
 ## Features
 - Audio and Video Capture: Utilizes p5.js and p5.sound libraries to capture real-time video and audio input.
