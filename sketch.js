@@ -47,6 +47,17 @@ function setup() {
   
   // 
   voice.start();
+  
+  //
+   if (typeof DeviceMotionEvent.requestPermission === 'function') {
+    DeviceMotionEvent.requestPermission()
+      .then(response => {
+        if (response == 'granted') {
+          console.log('Permission granted');
+        }
+      })
+      .catch(console.error);
+  }
 }
 
 //
