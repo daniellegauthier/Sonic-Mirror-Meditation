@@ -32,7 +32,9 @@ function setup() {
   pixelDensity(1);
   
   //  
-  subject = createCapture(VIDEO);
+  subject = createCapture(VIDEO, function() {
+  console.log('Video capture ready');
+});
   
   // 
   subject.size(width / minimize, height / minimize);
@@ -110,7 +112,7 @@ function draw() {
       rectMode(CENTER);
       
       // 
-      rect(x * minimize, y * minimize, concentrate * 1000, pixel);
+      rect(x * minimize, y * minimize, pixel, pixel);
     }
     
   // 
